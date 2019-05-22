@@ -170,22 +170,20 @@ namespace WorkbenchService
         private void AskTerminal(object source, ElapsedEventArgs e)
         {
             try
-            {
-                ComPort.Write(Terminals, 6, 3);
-                Dispatcher.Invoke(new Action(() =>
-                {
-                    SystemMessageTextBox.Text += "\r\n" + DateTime.Now.ToString("yyyy-MM-dd  HH:mm:ss :") + "成功发送指令：" + Terminals[6].ToString();
-                    SystemMessageTextBoxScrollViewer.ScrollToBottom();//滚到最下面
-                }));
-                
-                /*
+            {         
                 ComPort.Write(Terminals, 0, 3);
                 //延迟CollectIntervalTime秒
                 for (int i = 0; i < CollectIntervalTime; i++)
                 {
                     Thread.Sleep(1000);
                 }
-                ComPort.Write(Terminals, 3, 3);*/
+                ComPort.Write(Terminals, 3, 3);
+                //延迟CollectIntervalTime秒
+                for (int i = 0; i < CollectIntervalTime; i++)
+                {
+                    Thread.Sleep(1000);
+                }
+                ComPort.Write(Terminals, 6, 3);
             }
             catch (Exception err)
             {
@@ -276,7 +274,7 @@ namespace WorkbenchService
                     return;//无法打开串口，提示后直接返回
                 }
 
-                /*
+                
                 //↓↓↓↓↓↓↓↓↓发送起始数据到服务器↓↓↓↓↓↓↓↓↓ 
                 string TestString = "[{\"tSerialNumber\":\"343\"}]";
                 try
@@ -291,7 +289,7 @@ namespace WorkbenchService
                     return;//无法连接服务器
                 }
                 //↑↑↑↑↑↑↑↑↑发送起始数据到连接服务器↑↑↑↑↑↑↑↑↑                  
-                */
+                
 
                 AskTerminalTask.Start();//启动发送终端指令任务
                 FileSaveTask.Start();//启动文件保存任务
