@@ -340,10 +340,10 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>ISX_DEFAULTCOMPONENT</td><td>{BAF21CCD-EE68-4C6E-AC8D-F9D12614C8FA}</td><td>RELEASE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT</td><td>{51A772E1-0ED6-4BBD-BD21-0B2F316C0139}</td><td>RELEASE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>IS_ININSTALL_SHORTCUT</td><td>{718229A2-CFAB-4D51-A117-A3AE7C87F0B0}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>WorkbenchService.exe</td><td>{7B942E82-D349-438B-9DF3-709226CB43E3}</td><td>RELEASE</td><td>2</td><td/><td>workbenchservice.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>WorkbenchService.vshost.exe</td><td>{40EE2BC7-FF93-43F5-BDAB-DF7190B38186}</td><td>RELEASE</td><td>2</td><td/><td>workbenchservice.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>WorkbenchService.exe</td><td>{BF1E4231-96CD-455D-AD1A-ED65686AE9AA}</td><td>RELEASE</td><td>2</td><td/><td>workbenchservice.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>WorkbenchService.vshost.exe</td><td>{6ACEDC62-B6EC-472D-A237-EE310D1655E1}</td><td>RELEASE</td><td>2</td><td/><td>workbenchservice.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1890,12 +1890,12 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>workbenchservice.exe</td><td>WorkbenchService.exe</td><td>WORKBE~1.EXE|WorkbenchService.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Meumax-Projects\硕士项目\广中医物联网基站服务\WorkbenchService(https20190501D)\WorkbenchService\bin\Release\WorkbenchService.exe</td><td>1</td><td/></row>
-		<row><td>workbenchservice.exe.config</td><td>ISX_DEFAULTCOMPONENT</td><td>WORKBE~1.CON|WorkbenchService.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Meumax-Projects\硕士项目\广中医物联网基站服务\WorkbenchService(https20190501D)\WorkbenchService\bin\Release\WorkbenchService.exe.config</td><td>1</td><td/></row>
-		<row><td>workbenchservice.pdb</td><td>ISX_DEFAULTCOMPONENT</td><td>WORKBE~1.PDB|WorkbenchService.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Meumax-Projects\硕士项目\广中医物联网基站服务\WorkbenchService(https20190501D)\WorkbenchService\bin\Release\WorkbenchService.pdb</td><td>1</td><td/></row>
-		<row><td>workbenchservice.vshost.exe</td><td>WorkbenchService.vshost.exe</td><td>WORKBE~1.EXE|WorkbenchService.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Meumax-Projects\硕士项目\广中医物联网基站服务\WorkbenchService(https20190501D)\WorkbenchService\bin\Release\WorkbenchService.vshost.exe</td><td>1</td><td/></row>
-		<row><td>workbenchservice.vshost.exe.</td><td>ISX_DEFAULTCOMPONENT</td><td>WORKBE~1.CON|WorkbenchService.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Meumax-Projects\硕士项目\广中医物联网基站服务\WorkbenchService(https20190501D)\WorkbenchService\bin\Release\WorkbenchService.vshost.exe.config</td><td>1</td><td/></row>
-		<row><td>workbenchservice.vshost.exe.1</td><td>ISX_DEFAULTCOMPONENT</td><td>WORKBE~1.MAN|WorkbenchService.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>D:\Meumax-Projects\硕士项目\广中医物联网基站服务\WorkbenchService(https20190501D)\WorkbenchService\bin\Release\WorkbenchService.vshost.exe.manifest</td><td>1</td><td/></row>
+		<row><td>workbenchservice.exe</td><td>WorkbenchService.exe</td><td>WORKBE~1.EXE|WorkbenchService.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.exe</td><td>1</td><td/></row>
+		<row><td>workbenchservice.exe.config</td><td>ISX_DEFAULTCOMPONENT</td><td>WORKBE~1.CON|WorkbenchService.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.exe.config</td><td>1</td><td/></row>
+		<row><td>workbenchservice.pdb</td><td>ISX_DEFAULTCOMPONENT</td><td>WORKBE~1.PDB|WorkbenchService.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.pdb</td><td>1</td><td/></row>
+		<row><td>workbenchservice.vshost.exe</td><td>WorkbenchService.vshost.exe</td><td>WORKBE~1.EXE|WorkbenchService.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.vshost.exe</td><td>1</td><td/></row>
+		<row><td>workbenchservice.vshost.exe.</td><td>ISX_DEFAULTCOMPONENT</td><td>WORKBE~1.CON|WorkbenchService.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.vshost.exe.config</td><td>1</td><td/></row>
+		<row><td>workbenchservice.vshost.exe.1</td><td>ISX_DEFAULTCOMPONENT</td><td>WORKBE~1.MAN|WorkbenchService.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.vshost.exe.manifest</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2038,10 +2038,10 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_7C4EBF73_2891_4812_B757_E053304907DD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_BA6230E9_E624_40AD_817D_08A231F7D062_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>IS_ININSTALL_SHORTCUT</td><td/><td/><td>_5A1B5221_BF5A_4992_A870_BC459D1C71FE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>WorkbenchService.exe</td><td/><td/><td>_73FA8E3C_9AD3_477C_8FE2_1A3F8C58A825_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>WorkbenchService.vshost.exe</td><td/><td/><td>_30DE0E16_189C_4804_A7B3_C18A0532CBE2_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>WorkbenchService.exe</td><td/><td/><td>_BB03A6A9_2A54_4EAB_A1B0_879960C6DBBD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>WorkbenchService.vshost.exe</td><td/><td/><td>_EA433A63_B353_4A11_AE07_221EA253AC17_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -3445,6 +3445,8 @@
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>WorkbenchService</td><td>0</td><td/><td>1386727830</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>LAUNCH~1.EXE|Launch WorkbenchService.vshost.exe</td><td>0</td><td/><td>1386717462</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>Uninstall WorkbenchService</td><td>0</td><td/><td>1386684854</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td>LAUNCH~1.EXE|Launch WorkbenchService.exe</td><td>0</td><td/><td>-1297661905</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME5</td><td>1033</td><td>LAUNCH~1.EXE|Launch WorkbenchService.vshost.exe</td><td>0</td><td/><td>-1297661905</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>1386707190</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>1386707190</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>1386707190</td></row>
@@ -3737,6 +3739,7 @@
 		<row><td>ID_STRING2</td><td>1033</td><td>http://www.801Team.com</td><td>0</td><td/><td>1386723574</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>801Team</td><td>0</td><td/><td>1386723574</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>LAUNCH~1.EXE|Launch WorkbenchService.exe</td><td>0</td><td/><td>1386731798</td></row>
+		<row><td>ID_STRING5</td><td>1033</td><td>LAUNCH~1.EXE|Launch WorkbenchService.exe</td><td>0</td><td/><td>-1163399797</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>1386707190</td></row>
 	</table>
 
@@ -3853,7 +3856,10 @@
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
 		<row><td>UNINST_Uninstall_W_728BE592A0C5476995CFBE1C6DBCC755.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2015LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 		<row><td>WorkbenchService.e_0549B96BF41B4E29BB9AB287805A9DBF.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>WorkbenchService.e_416346FE34C24CFA8C83568F3ADB73E0.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>WorkbenchService.e_4B64A16540C043B8A11E055CD7BB3B73.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>WorkbenchService.e_DEB20B7F0101449DA484003457A524FD.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>WorkbenchService.v_360CD94564144980BCF6E9A350530AFE.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>WorkbenchService.v_7E78172F56B2477A84DC8BF903F65EA2.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 	</table>
 
@@ -4438,8 +4444,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
-		<row><td>FileKey1</td><td>WorkbenchService.exe</td><td/><td>_01team</td><td>2</td></row>
-		<row><td>FileKey2</td><td>WorkbenchService.exe</td><td/><td>workbe_1_workbenchservice_setup</td><td>2</td></row>
 		<row><td>UNINST_Uninstall_WorkbenchService_SetUp</td><td>IS_ININSTALL_SHORTCUT</td><td/><td>workbe_1_workbenchservice_setup</td><td>2</td></row>
 		<row><td>WorkbenchService.exe</td><td>WorkbenchService.exe</td><td/><td>workbe_1_workbenchservice_setup</td><td>2</td></row>
 		<row><td>WorkbenchService.vshost.exe</td><td>WorkbenchService.vshost.exe</td><td/><td>workbe_1_workbenchservice_setup</td><td>2</td></row>
@@ -4529,9 +4533,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
 		<row><td>UNINST_Uninstall_WorkbenchService_SetUp</td><td>workbe_1_workbenchservice_setup</td><td>##IDS_SHORTCUT_DISPLAY_NAME3##</td><td>IS_ININSTALL_SHORTCUT</td><td>[SystemFolder]msiexec.exe</td><td>/x {A3E6604A-E072-4371-9752-A0979E34ACF1}</td><td/><td/><td>UNINST_Uninstall_W_728BE592A0C5476995CFBE1C6DBCC755.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>WorkbenchService.exe</td><td>workbe_1_workbenchservice_setup</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>WorkbenchService.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>WorkbenchService.e_DEB20B7F0101449DA484003457A524FD.exe</td><td>0</td><td>1</td><td>RELEASE</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>WorkbenchService.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>WorkbenchService.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>WorkbenchService.e_0549B96BF41B4E29BB9AB287805A9DBF.exe</td><td>0</td><td>1</td><td>RELEASE</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>WorkbenchService.vshost.exe</td><td>workbe_1_workbenchservice_setup</td><td>##IDS_SHORTCUT_DISPLAY_NAME2##</td><td>WorkbenchService.vshost.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>WorkbenchService.v_7E78172F56B2477A84DC8BF903F65EA2.exe</td><td>0</td><td>1</td><td>RELEASE</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>WorkbenchService.exe</td><td>workbe_1_workbenchservice_setup</td><td>##IDS_SHORTCUT_DISPLAY_NAME4##</td><td>WorkbenchService.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>WorkbenchService.e_4B64A16540C043B8A11E055CD7BB3B73.exe</td><td>0</td><td>1</td><td>RELEASE</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>WorkbenchService.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME4##</td><td>WorkbenchService.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>WorkbenchService.e_416346FE34C24CFA8C83568F3ADB73E0.exe</td><td>0</td><td>1</td><td>RELEASE</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>WorkbenchService.vshost.exe</td><td>workbe_1_workbenchservice_setup</td><td>##IDS_SHORTCUT_DISPLAY_NAME5##</td><td>WorkbenchService.vshost.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>WorkbenchService.v_360CD94564144980BCF6E9A350530AFE.exe</td><td>0</td><td>1</td><td>RELEASE</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

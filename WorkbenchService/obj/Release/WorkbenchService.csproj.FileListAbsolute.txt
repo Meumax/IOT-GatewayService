@@ -100,3 +100,16 @@ D:\Meumax-Projects\硕士项目\广中医物联网基站服务\WorkbenchService(
 D:\Meumax-Projects\硕士项目\广中医物联网基站服务\WorkbenchService(https20190513D)\WorkbenchService\obj\Release\WorkbenchService.g.resources
 D:\Meumax-Projects\硕士项目\广中医物联网基站服务\WorkbenchService(https20190513D)\WorkbenchService\obj\Release\WorkbenchService.Properties.Resources.resources
 D:\Meumax-Projects\硕士项目\广中医物联网基站服务\WorkbenchService(https20190513D)\WorkbenchService\obj\Release\WorkbenchService.csproj.GenerateResource.Cache
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.exe.config
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\WorkbenchService.exe
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\WorkbenchService.pdb
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.exe
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.pdb
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\WorkbenchService.csprojResolveAssemblyReference.cache
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\MainWindow.baml
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\MainWindow.g.cs
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\App.g.cs
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\WorkbenchService_MarkupCompile.cache
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\WorkbenchService.g.resources
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\WorkbenchService.Properties.Resources.resources
+D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\WorkbenchService.csproj.GenerateResource.Cache
