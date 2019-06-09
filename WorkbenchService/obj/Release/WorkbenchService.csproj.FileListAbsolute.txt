@@ -105,7 +105,6 @@ D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\WorkbenchService.
 D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\WorkbenchService.pdb
 D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.exe
 D:\桌面\temp\IOT-GatewayService\WorkbenchService\bin\Release\WorkbenchService.pdb
-D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\WorkbenchService.csprojResolveAssemblyReference.cache
 D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\MainWindow.baml
 D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\MainWindow.g.cs
 D:\桌面\temp\IOT-GatewayService\WorkbenchService\obj\Release\App.g.cs

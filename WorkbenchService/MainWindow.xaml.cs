@@ -204,14 +204,20 @@ namespace WorkbenchService
                 string CurrentTime, Path, JSONFileSaveReturn,LogFileSaveReturn;
                 CurrentTime = DateTime.Now.ToString("yyyy年MM月dd日HH时mm分ss秒");
 
+                //保存data数据
                 Path = JSONSaveDocument + "\\" + CurrentTime + ".txt";
                 JSONFileSaveReturn = SaveFile(Path, SendDataTextBox.Text);
                 SystemMessageTextBox.Text += "\r\n" + DateTime.Now.ToString("yyyy-MM-dd  HH:mm:ss :") + "文件保存：" + JSONFileSaveReturn;
 
+                //保存运行信息
                 Path = JSONSaveDocument + "\\" + CurrentTime + " log.txt";
                 LogFileSaveReturn = SaveFile(Path, SystemMessageTextBox.Text);                 
                 SystemMessageTextBox.Text += "\r\n" + DateTime.Now.ToString("yyyy-MM-dd  HH:mm:ss :") + "文件保存：" + LogFileSaveReturn;
                 SystemMessageTextBoxScrollViewer.ScrollToBottom();//滚到最下面
+
+                //清空data框和运行信息框
+                SendDataTextBox.Text = "";
+                SystemMessageTextBox.Text = "";
             }));
         }
 
