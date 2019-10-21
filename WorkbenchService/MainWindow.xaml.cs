@@ -143,34 +143,44 @@ namespace WorkbenchService
          */
         private string HttpPost(string Url, string postDataStr)
         {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
+            try
+            {
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
 
-            ServicePointManager.ServerCertificateValidationCallback = ValidateServerCertificate;
+                ServicePointManager.ServerCertificateValidationCallback = ValidateServerCertificate;
 
-            request.Method = "POST";
-            request.ContentType = "application/json;charset=utf-8";
-            request.ContentLength = Encoding.UTF8.GetByteCount(postDataStr);
-            Stream myRequestStream = request.GetRequestStream();
-            StreamWriter myStreamWriter = new StreamWriter(myRequestStream, Encoding.GetEncoding("gb2312"));
-            myStreamWriter.Write(postDataStr);
-            myStreamWriter.Close();
+                request.Method = "POST";
+                request.ContentType = "application/json;charset=utf-8";
+                request.ContentLength = Encoding.UTF8.GetByteCount(postDataStr);
+                Stream myRequestStream = request.GetRequestStream();
+                StreamWriter myStreamWriter = new StreamWriter(myRequestStream, Encoding.GetEncoding("gb2312"));
+                myStreamWriter.Write(postDataStr);
+                myStreamWriter.Close();
 
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
-            Stream myResponseStream = response.GetResponseStream();
-            StreamReader myStreamReader = new StreamReader(myResponseStream, Encoding.GetEncoding("utf-8"));
-            string retString = myStreamReader.ReadToEnd();
-            myStreamReader.Close();
-            myResponseStream.Close();
+                Stream myResponseStream = response.GetResponseStream();
+                StreamReader myStreamReader = new StreamReader(myResponseStream, Encoding.GetEncoding("utf-8"));
+                string retString = myStreamReader.ReadToEnd();
+                myStreamReader.Close();
+                myResponseStream.Close();
 
-            return retString;
+                return retString;
+            }
+            catch (Exception err)
+            {
+                return err.Message;
+            }
+
+            
         }
 
         //发送终端指令任务实现
         private void AskTerminal(object source, ElapsedEventArgs e)
         {
             try
-            {         
+            {
+                //发送01 0d 0a
                 ComPort.Write(Terminals, 0, 3);
                 //延迟CollectIntervalTime秒
                 for (int i = 0; i < CollectIntervalTime; i++)
@@ -183,7 +193,7 @@ namespace WorkbenchService
                 {
                     Thread.Sleep(1000);
                 }
-                ComPort.Write(Terminals, 6, 3);
+                //ComPort.Write(Terminals, 6, 3);
             }
             catch (Exception err)
             {
@@ -283,17 +293,10 @@ namespace WorkbenchService
                 
                 //↓↓↓↓↓↓↓↓↓发送起始数据到服务器↓↓↓↓↓↓↓↓↓ 
                 string TestString = "[{\"tSerialNumber\":\"343\"}]";
-                try
-                {
-                    SystemMessageTextBox.Text += "\r\n" + DateTime.Now.ToString("yyyy-MM-dd  HH:mm:ss :") + HttpPost(Url, TestString);//显示服务器返回信息
-                }
-                catch (Exception err)
-                {
-                    SystemMessageTextBox.Text += "\r\n" + DateTime.Now.ToString("yyyy-MM-dd  HH:mm:ss :") + err.Message;
-                    ComPort.Close();
-                    SystemMessageTextBox.Text = "\r\n" + DateTime.Now.ToString("yyyy-MM-dd  HH:mm:ss :") + "串口已停止!";
-                    return;//无法连接服务器
-                }
+                string Respond = "";
+                SystemMessageTextBox.Text += "\r\n" + DateTime.Now.ToString("yyyy-MM-dd  HH:mm:ss :") + "正在连接服务器...";
+                Respond = HttpPost(Url, TestString);
+                SystemMessageTextBox.Text += "\r\n" + DateTime.Now.ToString("yyyy-MM-dd  HH:mm:ss :") + Respond;
                 //↑↑↑↑↑↑↑↑↑发送起始数据到连接服务器↑↑↑↑↑↑↑↑↑                  
                 
 
